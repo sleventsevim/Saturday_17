@@ -9,7 +9,8 @@ terraform {
 
 
     backend "remote" {
-        organization = "leventsorganization"
+     organization = "example-org-a5c37d"
+     #   organization = "leventsorganization"
        
     workspace {
             name = "Levent_workspace"
