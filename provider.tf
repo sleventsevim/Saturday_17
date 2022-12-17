@@ -5,6 +5,9 @@ terraform {
       version = "3.36.0"
     }
 
+  }
+
+
     backend "remote" {
         organization = "leventsorganization"
        
@@ -12,7 +15,7 @@ terraform {
             name = "Levent_workspace"
         }
     }
-  }
+
 }
 
 provider "azurerm" {
